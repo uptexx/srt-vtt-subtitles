@@ -1,0 +1,46 @@
+{
+  "name": "@uptexx/srt-vtt-subtitles",
+  "version": "1.0.0",
+  "description": "Millisecond-accurate .SRT and WebVTT (.vtt) subtitle generator, parser, time-shift synchronizer, and Deepgram/Whisper word-timestamp formatter.",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "module": "./src/index.mjs",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "import": "./src/index.mjs",
+      "default": "./src/index.mjs"
+    }
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/index.test.mjs"
+  },
+  "keywords": [
+    "srt",
+    "vtt",
+    "webvtt",
+    "subtitles",
+    "captions",
+    "deepgram",
+    "whisper",
+    "transcription",
+    "uptexx",
+    "nexopost"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uptexx/srt-vtt-subtitles.git"
+  },
+  "homepage": "https://nexopost.com",
+  "author": "Uptexx (https://uptexx.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
